@@ -19,10 +19,10 @@ $assetPath = $isInPages ? '../' : '';
                 </div>
                 <div class="footer-section">
                     <h3>Our Branches</h3>
-                    <p>✓ Vita Branch:<br>→ Pandurang Complex, Near HDFC Bank,<br>Karad Road, Vita – 415 311<br>Phone:
+                    <p>⑴ Vita Branch:<br>📌 Pandurang Complex, Near HDFC Bank,<br>Karad Road, Vita – 415 311<br>Phone:
                         +91
                         99706 55533</p>
-                    <p>✓ Kadegaon Branch:<br>→ Near Palus Bank, Vita Road, Kadegaon – 415 304<br>Phone: +91 99233 44789
+                    <p>⑵ Kadegaon Branch:<br>📌 Near Palus Bank, Vita Road, Kadegaon – 415 304<br>Phone: +91 99233 44789
                     </p>
                 </div>
 
@@ -33,12 +33,16 @@ $assetPath = $isInPages ? '../' : '';
                         <li><a href="<?php echo $assetPath; ?>index.php#accessories">Accessories</a></li>
                         <li><a href="<?php echo $assetPath; ?>index.php#contact">Contact</a></li>
                         <li><a href="<?php echo $assetPath; ?>index.php#blog">Blog</a></li>
+                        <li><a href="<?php echo $assetPath; ?>index.php#reviews">Reviews</a></li>
+                        <li><a href="<?php echo $assetPath; ?>index.php#faq">FAQ</a></li>
+                        <li><a href="<?php echo $assetPath; ?>pages/terms.php">Terms and Conditions</a></li>
+                        <li><a href="<?php echo $assetPath; ?>pages/privacy.php">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024 Perfect Computers. All rights reserved.</p>
-                <p>Powered by <a href="https://davishkar.github.io/Linktree/" target="_blank">Avishkar Deshmukh<svg
+                <p>Powered by <a href="https://davishkar.github.io/My-Services-Page/" target="_blank">Avishkar Digital Studio<svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#1DA1F2"
                             style="vertical-align: middle; margin-left: 4px;">
                             <path

@@ -215,8 +215,8 @@ function createAccessoryCard(accessory) {
     
     // Handle missing images gracefully
     const imageHTML = accessory.image ? 
-        `<img src="${accessory.image}" alt="${accessory.name}" onerror="this.src='https://via.placeholder.com/250x200/e2e8f0/64748b?text=Image+Not+Found'">` :
-        `<img src="https://via.placeholder.com/250x200/e2e8f0/64748b?text=No+Image" alt="${accessory.name}">`;
+        `<img src="${accessory.image}" alt="${accessory.name}" onerror="this.src='./images/logo.jpg?text=Image+Not+Found'">` :
+        `<img src="./images/logo.jpg?text=No+Image" alt="${accessory.name}">`;
     
     card.innerHTML = `
         ${imageHTML}
@@ -224,7 +224,7 @@ function createAccessoryCard(accessory) {
             <h3>${accessory.name}</h3>
             <div class="price">${accessory.price}</div>
             <div class="product-actions">
-                <button class="btn btn-success">Add to Cart</button>
+                
                 <a class="btn whatsapp-product-btn" 
                    href="https://wa.me/919970655533?text=${encodeURIComponent('I am interested in purchasing an accessory.: ' + accessory.name + '. Could you please provide more details?')}" 
                    target="_blank">
